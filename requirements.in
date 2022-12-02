@@ -1,0 +1,6 @@
+pyyaml
+pydantic
+fuzzywuzzy
+python-Levenshtein
+numpy
+matplotlib

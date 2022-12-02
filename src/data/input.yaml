@@ -1,0 +1,202 @@
+# Reference: https://d2.destinygamewiki.com/wiki/Seasonal_Artifact
+
+season_18:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade arc"]
+    unstop: ["melee solar"]
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Arc ability damage causes jolt on"
+  champ_stun:
+  - champ_type: []
+    trigger: ""
+  champ_weapons:
+    barrier: ["scout rifle", "auto rifle", "sniper"]
+    overload: ["bow", "machine gun"]
+    unstop: ["pulse rifle", "shotgun"]
+  name: "Plunder"
+
+season_17:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade solar"]
+    unstop: []
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Solar ignition on stunning"
+  - champ_type: ["any"]
+    effect: "Solar ability damage weakens"
+  champ_stun:
+  - champ_type: []
+    trigger: ""
+  champ_weapons:
+    barrier: ["pulse rifle", "sidearm"]
+    overload: ["smg", "auto rifle", "trace rifle"]
+    unstop: ["scout rifle", "glaive"]
+  name: "Haunted"
+
+season_16:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade void"]
+    unstop: ["melee solar"]
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Spawns heavy ammo for you and your allies on finishing"
+  champ_stun:
+  - champ_type: []
+    trigger: ""
+  champ_weapons:
+    barrier: ["scout rifle", "bow"]
+    overload: ["auto rifle", "smg"]
+    unstop: ["hand cannon", "pulse rifle", "glaive"]
+  name: "Risen"
+
+season_15:
+  champ_abilities:
+    barrier: []
+    overload: ["melee solar stasis"]
+    unstop: []
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Solar ability damage weakens"
+  - champ_type: ["any"]
+    effect: "Stasis ability energy on stunning"
+  champ_stun:
+  - champ_type: []
+    trigger: ""
+  champ_weapons:
+    barrier: ["auto rifle"]
+    overload: ["bow", "sword"]
+    unstop: ["pulse rifle", "sidearm", "fusion"]
+  name: "Lost"
+
+season_14:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade arc"]
+    unstop: ["melee void"]
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Explosive blast on stunning"
+  champ_stun:
+  - champ_type: ["overload", "unstop"]
+    trigger: "Warmind cell detonation stuns"
+  champ_weapons:
+    barrier: ["scout rifle", "auto rifle"]
+    overload: ["smg", "hand cannon"]
+    unstop: ["sidearm", "grenade launcher"]
+  name: "Splicer"
+
+season_13:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade arc"]
+    unstop: ["melee solar"]
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Stasis ability energy on stunning"
+  champ_stun:
+  - champ_type: []
+    trigger: ''
+  champ_weapons:
+    barrier: ["scout rifle", "sniper rifle"]
+    overload: ["bow", "smg", "sword"]
+    unstop: ["pulse rifle", "hand cannon"]
+  name: "Chosen"
+
+season_12:
+  champ_abilities:
+    barrier: []
+    overload: [grenade solar stasis]
+    unstop: ["melee void"]
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Recharge melee ability on stunning"
+  - champ_type: ["any"]
+    effect: "Recharge grenade ability on stunning"
+  - champ_type: ["any"]
+    effect: "Spawns heavy ammo for you and your allies on finishing"
+  champ_stun:
+  - champ_type: []
+    trigger: ''
+  champ_weapons:
+    barrier: ["pulse rifle", "smg"]
+    overload: ["auto rifle", "scout rifle"]
+    unstop: ["hand cannon", "shotgun"]
+  name: "Hunt"
+
+season_11:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade void"]
+    unstop: ["melee solar"]
+  champ_other:
+  - champ_type: ["any"]
+    effect: "Become charged with light on stunning"
+  - champ_type: ["barrier"]
+    effect: "Melee and grenade energy for stunning"
+  champ_stun:
+  - champ_type: []
+    trigger: ''
+  champ_weapons:
+    barrier: ["auto rifle", "smg"]
+    overload: ["sidearm", "hand cannon", "bow"]
+    unstop: ["hand cannon", "pulse rifle"]
+  name: "Arrivals"
+
+season_10:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade arc"]
+    unstop: ["melee solar"]
+  champ_other:
+  - champ_type: ["unstop"]
+    effect: "Recharge melee ability on stunning"
+  champ_stun:
+  - champ_type: ["overload", "unstop"]
+    trigger: "Warmind cell detonation stuns"
+  champ_weapons:
+    barrier: ["smg", "sidearm"]
+    overload: ["auto rifle", "smg", "sidearm", "hand cannon", "sword"]
+    unstop: ["hand cannon"]
+  name: "Worthy"
+
+season_9:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade solar"]
+    unstop: ["melee void"]
+  champ_other:
+  - champ_type: ["barrier"]
+    effect: "Melee and grenade energy for stunning"
+  - champ_type: ["unstop"]
+    effect: "Weapon damage boost for stunning"
+  champ_stun:
+  - champ_type: []
+    trigger: ''
+  champ_weapons:
+    barrier: ["bow", "scout rifle", "pulse rifle"]
+    overload: ["auto rifle", "smg"]
+    unstop: ["scout rifle", "pulse rifle", "bow"]
+  name: "Dawn"
+
+season_8:
+  champ_abilities:
+    barrier: []
+    overload: ["grenade void"]
+    unstop: ["melee arc"]
+  champ_other:
+  - champ_type: ["barrier"]
+    effect: "Grenade energy for stunning"
+  - champ_type: ["barrier"]
+    effect: "Melee energy for stunning"
+  champ_stun:
+  - champ_type: []
+    trigger: ''
+  champ_weapons:
+    barrier: ["auto rifle", "smg", "hand cannon"]
+    overload: ["auto rifle", "smg", "bow"]
+    unstop: ["hand cannon"]
+  name: "Undying"

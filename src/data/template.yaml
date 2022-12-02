@@ -1,0 +1,16 @@
+season_NUM:
+  champ_abilities:
+    barrier: []
+    overload: []
+    unstop: []
+  champ_other:
+  - champ_type: []
+    effect: ''
+  champ_stun:
+  - champ_type: []
+    trigger: ''
+  champ_weapons:
+    barrier: []
+    overload: []
+    unstop: []
+  name: ''
